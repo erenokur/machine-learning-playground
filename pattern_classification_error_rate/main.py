@@ -63,7 +63,6 @@ def main():
     # Create a model
     model = RandomForestClassifier(n_estimators=100)
 
-    # Example usage (assuming you have your data and model)
     error_rate = calculate_error_rate(model, features, labels_noisy)
     print(f"Error rate: {error_rate:.2f}")
 
