@@ -86,3 +86,4 @@ pip install -r requirements.txt
 ### Recommended library versions
 
 numpy==1.24.3
+scikit-learn==1.3.2
