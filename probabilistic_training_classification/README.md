@@ -4,6 +4,20 @@ Probabilistic training classification is a method used to train a classification
 
 The Probabilistic Classification algorithm works by estimating the probability of each class given the input features and then selecting the class with the highest probability as the predicted class. This method is based on Bayes' theorem, which provides a way to calculate the posterior probability of a class given the input data.
 
+## Formulation
+
+$$h(x) = argmax_k p(C_k | x) $$
+
+$$p(C_k | x) = \frac{p(x | C_k) * p(C_k)}{p(x)}$$
+
+Explanation of the terms:
+
+    h(x): Prediction for the class Ck​ that maximizes the posterior probability.
+
+    p(Ck​∣x): Posterior probability of class Ck​ given input x.
+
+    argmaxk​: Function that returns the index (class label) kk that maximizes the posterior probability.
+
 ## Step-by-step Explanation of How the Algorithm Works
 
 1. **Calculate the prior probability of each class based on the training data.**
@@ -63,18 +77,6 @@ accuracy = accuracy_score(y_test, predicted_classes)
 print("Accuracy:", accuracy)
 ```
 
-## Formulation
-
-$$h(x) = argmax_k p(C_k | x) $$
-
-Explanation of the terms:
-
-    h(x): Prediction for the class Ck​ that maximizes the posterior probability.
-
-    p(Ck​∣x): Posterior probability of class CkCk​ given input x.
-
-    argmaxk​: Function that returns the index (class label) kk that maximizes the posterior probability.
-
 ### Installing
 
 You need to have Python installed on your machine to run the projects.
@@ -86,4 +88,5 @@ pip install -r requirements.txt
 ### Recommended library versions
 
 numpy==1.24.3
+
 scikit-learn==1.3.2
