@@ -32,6 +32,7 @@ You may want to familiarize yourself with the following technologies/libraries:
 - [matplotlib](https://matplotlib.org/)
 - [seaborn](https://seaborn.pydata.org/)
 - [pytorch](https://pytorch.org/)
+- [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
 
 ### Feedback
 
