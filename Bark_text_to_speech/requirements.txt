@@ -1,0 +1,4 @@
+bark
+scipy
+ipython
+ffmpeg

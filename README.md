@@ -33,6 +33,7 @@ You may want to familiarize yourself with the following technologies/libraries:
 - [seaborn](https://seaborn.pydata.org/)
 - [pytorch](https://pytorch.org/)
 - [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
+- [librosa](https://librosa.org/doc/main/index.html)
 
 ### Feedback
 
