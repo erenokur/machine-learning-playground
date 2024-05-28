@@ -24,7 +24,3 @@ scoop install ffmpeg
 ### Recommended library versions
 
 openai-whisper-20231117
-
-tiktoken-0.7.0
-
-librosa==0.10.2
