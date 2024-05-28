@@ -7,6 +7,8 @@ output_folder = os.getcwd() + "/whisper_speech_to_text/output_text/"
 # load the model and transcribe the audio
 model = whisper.load_model("large-v2")
 result = model.transcribe(input_file)
+# alternatively, you can give language hint to the model
+# result = model.transcribe(input_file, language="Turkish")
 
 # print the recognized text
 text = result["text"]
