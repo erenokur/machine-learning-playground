@@ -163,3 +163,11 @@ whisper_speech_to_text/output_text/recognized_text.txt
 
 titanic_machine_learning_from_disaster/datasets/*
 titanic_machine_learning_from_disaster/output/*
+
+Bark_text_to_speech/output_audio/*
+
+HMM_find_person/test_audio/*
+HMM_find_person/train_audio/*
+
+HMM_person_detect_in_list/test_audio/*
+HMM_person_detect_in_list/train_audio/*
