@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 whisper_speech_to_text/input_audio/audio.mp3
 whisper_speech_to_text/output_text/recognized_text.txt
+
+titanic_machine_learning_from_disaster/datasets/*
+titanic_machine_learning_from_disaster/output/*
