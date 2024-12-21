@@ -1,0 +1,5 @@
+SpeechRecognition
+pocketsphinx
+librosa
+numpy
+soundfile

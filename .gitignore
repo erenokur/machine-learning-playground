@@ -171,3 +171,5 @@ HMM_find_person/train_audio/*
 
 HMM_person_detect_in_list/test_audio/*
 HMM_person_detect_in_list/train_audio/*
+
+pocketsphinx_speech_to_text/audios/*
